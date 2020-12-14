@@ -20,7 +20,7 @@ $ docker-compose up
 
 ```
 ports:
- - "10014:8069"
+ - "8069:8069"
 ```
 
 * Log file is printed @ **etc/odoo-server.log**
