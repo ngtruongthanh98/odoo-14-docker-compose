@@ -23,7 +23,6 @@ services:
     volumes:
       - odoo-web-data:/etc/odoo
       - ./addons:/mnt/extra-addons
-      - ./etc:/etc/odoo
     # restart: always             # run as a service
 volumes:
   odoo-web-data:
